@@ -22,7 +22,7 @@ The provided code for Basic-SOCDrills does indeed feature an interactive GUI usi
    
 ```
 
-2. **Install GTK and other dependencies:**
+### 2. **Install GTK and other dependencies:**
    Since the project uses GTK for the GUI, you need to have the GTK development libraries installed:
 
    ```bash
