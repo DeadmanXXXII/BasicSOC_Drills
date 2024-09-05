@@ -36,7 +36,6 @@ The provided code for Basic-SOCDrills does indeed feature an interactive GUI usi
    ```bash
    cargo new basic-soc-drills
    cd basic-soc-drills
-
    ```
 
 2. **Replace the `main.rs` content:**
@@ -45,17 +44,17 @@ The provided code for Basic-SOCDrills does indeed feature an interactive GUI usi
 3. **Add dependencies to `Cargo.toml`:**
    Open the `Cargo.toml` file and add the required dependencies:
 
+   ```bash
    toml
    [dependencies]
    cron = "0.6"
    gtk = "0.9"
-
    ```
 
 4. **Build and Run the Project:**
    Use the following commands to build and run your project:
 
-   bash
+   ```bash
 
    cargo build
    cargo run
