@@ -19,19 +19,16 @@ The provided code for Basic-SOCDrills does indeed feature an interactive GUI usi
 
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    source $HOME/.cargo/env
-   
-```
+   ```
 ### Gtk:
 2. **Install GTK and other dependencies:**
    Since the project uses GTK for the GUI, you need to have the GTK development libraries installed:
 
    ```bash
-
    sudo apt update
    sudo apt install libgtk-3-dev
    sudo apt install clamav nmap macchanger logrotate
-   
-```
+   ```
 
 ### Running the Project:
 1. **Create a new Rust project (if you haven't already):**
